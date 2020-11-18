@@ -31,7 +31,13 @@ namespace Funcao_while
 
             // Console.WriteLine("E-mail confirmado");
 
-            for(var contador = 0; contador < 10; contador++);
+            for(var contador = 0.5; contador < 10; contador++);
+            
+            Console.WriteLine("Digite um valor");
+            int valor = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Você digitou : {valor}");
+            
+
 
 
 
